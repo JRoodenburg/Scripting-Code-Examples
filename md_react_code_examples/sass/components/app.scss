@@ -1,0 +1,25 @@
+$whiteSpacing: 5px;
+$broken-white: #e9e9e9;
+$dark-blue: #2a2e37;
+
+.app {
+  @include border-box();
+
+  background: $broken-white;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 5px solid white;
+
+  &__title {
+    color: white;
+    background: $dark-blue;
+    padding: $whiteSpacing;
+    font-size: 16px;
+  }
+
+  &__container {
+    height: 100%;
+  }
+
+}

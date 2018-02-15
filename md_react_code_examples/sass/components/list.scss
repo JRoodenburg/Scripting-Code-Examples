@@ -1,0 +1,18 @@
+$whiteSpacing: 5px;
+
+.list {
+
+  padding-top: 2*$whiteSpacing;
+  width: 300px;
+  height: 100%;
+  border-right: 2px solid white;
+  background: white;
+  display: inline-block;
+
+  &__label {
+    font-weight: bold;
+    color: #343642;
+    padding: $whiteSpacing;
+  }
+
+}
